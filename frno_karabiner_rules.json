@@ -1,0 +1,20 @@
+{ "title": "useful CH keyboard mappings",
+  "rules": [
+     { "description": "non_us_backslash to shift+option+7",
+      "manipulators": [ {
+                "from": { "key_code": "non_us_backslash" },
+                  "to": [
+                    {
+                      "key_code": "7",
+                      "modifiers": [
+                        "right_shift",
+                        "right_option"
+                      ]
+                    }
+                  ],
+        "type": "basic"
+      }
+      ]
+     }
+  ]
+}
